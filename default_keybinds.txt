@@ -24,8 +24,8 @@ esp.chams.enemy.occluded "Off"
 esp.chams.enemy.occluded.clr 0 136 236 255
 esp.chams.enemy.overlay "Off"
 esp.chams.enemy.overlay.clr 239 53 82 255
-esp.chams.enemy.visible "Off"
-esp.chams.enemy.visible.clr 0 143 10 255
+esp.chams.enemy.visible "Glow"
+esp.chams.enemy.visible.clr 0 225 255 255
 esp.chams.enemyattachments 
 esp.chams.enemyattachments.glow "Off"
 esp.chams.enemyattachments.glow.clr 255 255 255 255
@@ -138,6 +138,26 @@ esp.chams.weapon.overlay "Off"
 esp.chams.weapon.overlay.clr 255 255 255 150
 esp.chams.weapon.visible "Off"
 esp.chams.weapon.visible.clr 102 152 46 255
+esp.gh_tab 
+esp.gh_tab.gh_box_radius 7.0
+esp.gh_tab.gh_ch_keybinds "Off"
+esp.gh_tab.gh_ch_standbox "On"
+esp.gh_tab.gh_ch_standbox.gh_clr_standbox 0 230 64 255
+esp.gh_tab.gh_ch_standbox_ood "On"
+esp.gh_tab.gh_ch_standbox_ood.gh_clr_standbox_oop 22 160 133 255
+esp.gh_tab.gh_ch_text "On"
+esp.gh_tab.gh_ch_text.gh_clr_text 255 255 255 255
+esp.gh_tab.gh_ch_throw "On"
+esp.gh_tab.gh_ch_throw.gh_clr_throw 255 0 0 255
+esp.gh_tab.gh_ch_throwline "On"
+esp.gh_tab.gh_ch_throwline.gh_clr_helper 233 212 96 255
+esp.gh_tab.gh_enabled "On"
+esp.gh_tab.gh_fix_airstrafe "Off"
+esp.gh_tab.gh_fix_strafe "Off"
+esp.gh_tab.gh_kb_add 0
+esp.gh_tab.gh_kb_rem 0
+esp.gh_tab.gh_max_distance 1578.0
+esp.gh_tab.gh_rect_size 5.0
 esp.local 
 esp.local.fov 90.0
 esp.local.outofview "Off"
@@ -471,7 +491,7 @@ lbot.weapon.accuracy.pistol.vrecoil 100.0
 lbot.weapon.accuracy.rifle 
 lbot.weapon.accuracy.rifle.hrecoil 93.0
 lbot.weapon.accuracy.rifle.rcs "On"
-lbot.weapon.accuracy.rifle.src "On"
+lbot.weapon.accuracy.rifle.src "Off"
 lbot.weapon.accuracy.rifle.vrecoil 90.0
 lbot.weapon.accuracy.scout 
 lbot.weapon.accuracy.scout.hrecoil 50.0
@@ -582,8 +602,8 @@ lbot.weapon.target.pistol.minfov 0.0
 lbot.weapon.target.pistol.tsd 400.0
 lbot.weapon.target.rifle 
 lbot.weapon.target.rifle.fsd 20.0
-lbot.weapon.target.rifle.maxfov 3.0
-lbot.weapon.target.rifle.minfov 0.4
+lbot.weapon.target.rifle.maxfov 2.0
+lbot.weapon.target.rifle.minfov 0.5
 lbot.weapon.target.rifle.tsd 120.0
 lbot.weapon.target.scout 
 lbot.weapon.target.scout.fsd 30.0
